@@ -1,0 +1,15 @@
+pkgbase = timeshift-autosnap
+	pkgdesc = Script de instantâneo automático Timeshift que é um procedimento antes da atualização do plug usando a chamada Pacman.
+	pkgver = 0.9
+	pkgrel = 1
+	url = http://localhost/timeshift-autosnap
+	arch = any
+	license = cIO
+	depends = timeshift
+	optdepends = grub-btrfs
+	backup = etc/timeshift-autosnap.conf
+	source = timeshift-autosnap.tar.gz
+	md5sums = SKIP
+
+pkgname = timeshift-autosnap
+

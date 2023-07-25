@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+#
+#
+#
+cd repo
+tar -czvf timeshift-autosnap.tar.gz timeshift-autosnap
+cd ..
+mv repo/timeshift-autosnap.tar.gz .
